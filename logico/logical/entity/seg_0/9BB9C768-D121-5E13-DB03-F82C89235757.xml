@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9BB9C768-D121-5E13-DB03-F82C89235757" name="Vehiculo">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:13:35 UTC</createdTime>
+<ownerDesignName>logico</ownerDesignName>
+<engineerTo>
+<item key="93D10FC3-CC50-7DE1-8665-04B68E1190D7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codVehiculo" id="C24AE6EF-2A0B-C162-4C6D-2C2ADC921F2A">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:13:43 UTC</createdTime>
+<ownerDesignName>logico</ownerDesignName>
+<engineerTo>
+<item key="93D10FC3-CC50-7DE1-8665-04B68E1190D7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matricula" id="32B600A8-99F9-3138-C5FC-CDED8DBD05D0">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:14:06 UTC</createdTime>
+<ownerDesignName>logico</ownerDesignName>
+<engineerTo>
+<item key="93D10FC3-CC50-7DE1-8665-04B68E1190D7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="modelo" id="41026649-939A-9E7E-B8A8-28D42A983919">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:14:20 UTC</createdTime>
+<ownerDesignName>logico</ownerDesignName>
+<engineerTo>
+<item key="93D10FC3-CC50-7DE1-8665-04B68E1190D7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="marca" id="7E655281-D1B9-DAF3-521E-70E33718BAC2">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:14:35 UTC</createdTime>
+<ownerDesignName>logico</ownerDesignName>
+<engineerTo>
+<item key="93D10FC3-CC50-7DE1-8665-04B68E1190D7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="95B94A33-692D-F9ED-1476-E15EF232CE6E" name="Vehiculo PK">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:13:59 UTC</createdTime>
+<ownerDesignName>logico</ownerDesignName>
+<engineerTo>
+<item key="93D10FC3-CC50-7DE1-8665-04B68E1190D7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C24AE6EF-2A0B-C162-4C6D-2C2ADC921F2A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,289 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0BBF8F48-2573-852D-EE45-2894A12C9693" name="Trabajador">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:36:59 UTC</createdTime>
+<generatorID>C1AA85AE-CD18-5D2C-1381-0A65125B40E4</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dni" id="A6C2F0FF-CA3B-0D5C-F7CF-54A9A46C234F">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:36:59 UTC</createdTime>
+<generatorID>6BE1CD33-84CF-063F-DB70-F5123BC64C39</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="22205433-5977-4AC4-E521-809A137F1D33">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:36:59 UTC</createdTime>
+<generatorID>5810C6C5-7062-D4E1-510E-7F929FB07717</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido1" id="E31EFAC3-9C1B-1838-1D1E-7B766FCEA32F">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:36:59 UTC</createdTime>
+<generatorID>E8F22B0A-FFF3-4DE5-47B1-17DE7A7545DF</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido2" id="42532CFF-513C-7B17-558D-FA01A662D5A1">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:36:59 UTC</createdTime>
+<generatorID>F88C816A-69C4-71CC-61DF-3467BEAA1E1E</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="calle" id="C95D232D-7D52-0A6B-1CE9-530FA42C1E5C">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:36:59 UTC</createdTime>
+<generatorID>1732B081-CC5E-AE79-5C02-983C0436DD58</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="portal" id="4D947633-0B0E-C52D-D019-50C40CD848B6">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:36:59 UTC</createdTime>
+<generatorID>4EC3F2A9-FA1B-7EA6-7D9F-100B6C8A1BBC</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mano" id="ACABC456-00A9-4D8D-FC95-FCAEB47DC05A">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:36:59 UTC</createdTime>
+<generatorID>6862BC82-151F-23BD-5F58-BB2B768619CA</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefEmpre" id="6396A8FF-665C-628B-E9C6-7EED33639FF8">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:36:59 UTC</createdTime>
+<generatorID>650F1D2B-12D3-CF7A-3BD2-0F413DE02C25</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefPerso" id="C7F96AAC-307A-AA57-9354-F9ECFC9C71EC">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:36:59 UTC</createdTime>
+<generatorID>A64B5C2A-5EC7-BB0F-F5B9-CA504AA0C857</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salario" id="6D6366F3-BFDD-5F57-4D9D-15BBBD44DF87">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:36:59 UTC</createdTime>
+<generatorID>EA2C52C0-1ED0-060E-A942-3700300B6812</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaNac" id="74E26D40-5EF6-ECAF-4E65-FEC4F779085E">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:36:59 UTC</createdTime>
+<generatorID>3D0D8134-80F8-0DFF-63F8-550F2F5CD885</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Centro_idCentro" id="F74CBD06-B623-A965-9F1D-44D80EF66E23">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:36:59 UTC</createdTime>
+<generatorID>AD7B3491-DE82-6C57-5024-E970DAC374A1</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B54FB155-9D14-1CED-AC6B-6B4D3D9DFC4F" referredColumn="64C79ABB-242D-26B0-53F0-685E8C724343"/>
+</associations>
+</Column>
+<Column name="Usuario_idUsuario" id="49D0C811-3018-0185-1006-4BC2F729F49D">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:40:37 UTC</createdTime>
+<generatorID>6A0B5D5D-234D-BE63-2EF9-6725FE2CB1FA</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9244BDA4-5296-015D-DEA5-F0B19904EA99" referredColumn="BF9E7492-3F6C-D6E3-2B0B-14643FEB80EB"/>
+</associations>
+</Column>
+<Column name="Aviso_codAviso" id="0790D34C-7D50-688E-CD59-8AB7125BC46D">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:40:37 UTC</createdTime>
+<generatorID>B54C6566-35E1-5265-4F41-12DF04288B00</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="957E89A7-CDEF-F120-1E21-C86A52EE0163" referredColumn="96EBDA43-E70F-28BA-FD32-F412D26D2288"/>
+</associations>
+</Column>
+<Column name="Trabajador_dni" id="3A665AF4-F2BB-58A1-B16F-1F88BECCD81F">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-01 14:32:04 UTC</createdTime>
+<generatorID>81B23491-A8CE-3B2E-0EDB-946AE3A60BAC</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="31D4DFAB-8C78-8FFE-9100-93C817A20574" referredColumn="A6C2F0FF-CA3B-0D5C-F7CF-54A9A46C234F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BC39962E-8816-EACB-2EA7-6A204895777D" name="Trabajador_PK">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:36:59 UTC</createdTime>
+<generatorID>20877BAD-527B-5ED6-EB49-B01FA81374EA</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6C2F0FF-CA3B-0D5C-F7CF-54A9A46C234F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C8CE445-7C51-2E78-167F-B7A7CBCFDD62" name="Trabajador__IDXv2">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:40:37 UTC</createdTime>
+<ownerDesignName>logico</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>73E5AD02-6802-173D-3B87-2E4B1509008B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="0790D34C-7D50-688E-CD59-8AB7125BC46D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="898EC226-1FB3-FF7B-D79A-A9BF5AC02AA7" name="Trabajador__IDX">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:40:37 UTC</createdTime>
+<ownerDesignName>logico</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>644D5A59-FC63-DC2C-EF0A-A3E24AE7CDBD</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="49D0C811-3018-0185-1006-4BC2F729F49D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CBA3A85F-77AB-4149-44C5-4A768BCB5212" name="Trabajador_Centro_FK">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:37:02 UTC</createdTime>
+<generatorID>76379358-73F2-4398-7315-41FFC43BC8C3</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F74CBD06-B623-A965-9F1D-44D80EF66E23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="42711BFF-9C59-ACA8-59D9-C91A0B80671B" name="Trabajador_Aviso_FK">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:40:37 UTC</createdTime>
+<generatorID>73E5AD02-6802-173D-3B87-2E4B1509008B</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0790D34C-7D50-688E-CD59-8AB7125BC46D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="07A28A2A-1E35-298F-A37C-676AA762CC47" name="Trabajador_Usuario_FK">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:40:37 UTC</createdTime>
+<generatorID>644D5A59-FC63-DC2C-EF0A-A3E24AE7CDBD</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49D0C811-3018-0185-1006-4BC2F729F49D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B859C912-9D44-A301-7CDA-D10366CA8170" name="Trabajador_Trabajador_FK">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-01 14:32:04 UTC</createdTime>
+<generatorID>A2FB4C0B-3CF3-C4CF-8DBD-485BBA455A54</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A665AF4-F2BB-58A1-B16F-1F88BECCD81F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

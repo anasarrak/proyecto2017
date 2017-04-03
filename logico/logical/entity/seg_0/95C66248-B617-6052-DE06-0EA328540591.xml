@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="95C66248-B617-6052-DE06-0EA328540591" name="Centro">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:01:03 UTC</createdTime>
+<ownerDesignName>logico</ownerDesignName>
+<engineerTo>
+<item key="93D10FC3-CC50-7DE1-8665-04B68E1190D7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idCentro" id="DE8A2DE4-706A-3917-0ED9-9EC6F573D43D">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:01:09 UTC</createdTime>
+<ownerDesignName>logico</ownerDesignName>
+<engineerTo>
+<item key="93D10FC3-CC50-7DE1-8665-04B68E1190D7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="4B1BDB71-0DEF-8D92-1D8C-49247AA2DB17">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:01:13 UTC</createdTime>
+<ownerDesignName>logico</ownerDesignName>
+<engineerTo>
+<item key="93D10FC3-CC50-7DE1-8665-04B68E1190D7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="calle" id="FE08D6E9-EDF2-F831-C204-5E6113C6533D">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:01:22 UTC</createdTime>
+<ownerDesignName>logico</ownerDesignName>
+<engineerTo>
+<item key="93D10FC3-CC50-7DE1-8665-04B68E1190D7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero" id="F60CB1C7-F327-D50B-0F10-2D570530C92E">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:02:04 UTC</createdTime>
+<ownerDesignName>logico</ownerDesignName>
+<engineerTo>
+<item key="93D10FC3-CC50-7DE1-8665-04B68E1190D7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codPostal" id="8B6710AE-2C07-BE46-6C6F-A9CE0A41E7AF">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:02:28 UTC</createdTime>
+<ownerDesignName>logico</ownerDesignName>
+<engineerTo>
+<item key="93D10FC3-CC50-7DE1-8665-04B68E1190D7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ciudad" id="8FCF7CA5-184D-59CE-4991-B0A4547351E8">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:03:01 UTC</createdTime>
+<ownerDesignName>logico</ownerDesignName>
+<engineerTo>
+<item key="93D10FC3-CC50-7DE1-8665-04B68E1190D7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="provincia" id="7FA3F918-34AA-F695-5971-01C24176735F">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:03:14 UTC</createdTime>
+<ownerDesignName>logico</ownerDesignName>
+<engineerTo>
+<item key="93D10FC3-CC50-7DE1-8665-04B68E1190D7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="D14F5B5B-8317-AEE0-5DD6-BC039419915E">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:03:20 UTC</createdTime>
+<ownerDesignName>logico</ownerDesignName>
+<engineerTo>
+<item key="93D10FC3-CC50-7DE1-8665-04B68E1190D7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EB5A55D3-7E85-859C-8FC1-F21DBE82E2C1" name="Centro PK">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:01:16 UTC</createdTime>
+<ownerDesignName>logico</ownerDesignName>
+<engineerTo>
+<item key="93D10FC3-CC50-7DE1-8665-04B68E1190D7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DE8A2DE4-706A-3917-0ED9-9EC6F573D43D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

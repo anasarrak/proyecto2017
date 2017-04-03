@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="manipula" directorySegmentName="seg_0" id="C6CD1CAF-AA75-2D6D-05A7-E26222F9BC40">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:25:21 UTC</createdTime>
+<ownerDesignName>logico</ownerDesignName>
+<engineerTo>
+<item key="93D10FC3-CC50-7DE1-8665-04B68E1190D7" value="true"/>
+</engineerTo>
+<sourcePk>20877BAD-527B-5ED6-EB49-B01FA81374EA</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>tiene</nameOnSource>
+<nameOnTarget>son manipulados</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C1AA85AE-CD18-5D2C-1381-0A65125B40E4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>67AD1AE9-36D6-7E40-E66B-7C1F95636F9C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
