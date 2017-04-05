@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="04075201-7A89-BA6D-8FB9-B4D15F398BCC" name="Vehiculo">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:36:59 UTC</createdTime>
+<generatorID>9BB9C768-D121-5E13-DB03-F82C89235757</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codVehiculo" id="E4186BA4-C188-D245-EFDB-C6CD0F36C3AE">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:37:00 UTC</createdTime>
+<generatorID>C24AE6EF-2A0B-C162-4C6D-2C2ADC921F2A</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="matricula" id="127D5EED-1249-1BA1-B4B2-03C16CCF8AA3">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:37:00 UTC</createdTime>
+<generatorID>32B600A8-99F9-3138-C5FC-CDED8DBD05D0</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modelo" id="2C01D578-E749-3412-87C3-EDDF595DD785">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:37:00 UTC</createdTime>
+<generatorID>41026649-939A-9E7E-B8A8-28D42A983919</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="marca" id="E7AAABA9-A3A9-5743-277D-1CD733824FBE">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:37:00 UTC</createdTime>
+<generatorID>7E655281-D1B9-DAF3-521E-70E33718BAC2</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="21C0D5F0-B884-5E6B-3A67-59C10516623E" name="Vehiculo_PK">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:37:00 UTC</createdTime>
+<generatorID>95B94A33-692D-F9ED-1476-E15EF232CE6E</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4186BA4-C188-D245-EFDB-C6CD0F36C3AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

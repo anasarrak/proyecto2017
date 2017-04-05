@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0A7BCF1-8462-E51F-B34E-B16F2AC0D298" name="Usuario">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:36:59 UTC</createdTime>
+<generatorID>832407DA-EA9C-4251-536B-33683952BD40</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idUsuario" id="BF9E7492-3F6C-D6E3-2B0B-14643FEB80EB">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:36:59 UTC</createdTime>
+<generatorID>E7C45551-8813-4D46-833A-954377A1FFB1</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuario" id="47D341A9-12FA-0CE1-ACD7-B465100FA94C">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:36:59 UTC</createdTime>
+<generatorID>BD6B0A52-2C44-5C7E-105A-CFA2EA6BADA4</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contraseña" id="8032E9B7-199C-3DA6-A786-ADF191C03952">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:36:59 UTC</createdTime>
+<generatorID>8A320FE9-1433-03D6-BFAA-30D5C2D0DC6D</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="36488AFF-E363-DD64-4101-CD6D4885366E" name="Usuario_PK">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:36:59 UTC</createdTime>
+<generatorID>2C9F2D3E-CC8F-B067-819B-7C359030BE02</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF9E7492-3F6C-D6E3-2B0B-14643FEB80EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA5A31FD-4CAA-2A5F-6174-D688973F165B" name="Usuario__IDX">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-01 14:32:04 UTC</createdTime>
+<ownerDesignName>logico</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>644D5A59-FC63-DC2C-EF0A-A3E24AE7CDBD</relationGeneratorID>
+</ind_PK_UK>
+</indexes>
+</Table>

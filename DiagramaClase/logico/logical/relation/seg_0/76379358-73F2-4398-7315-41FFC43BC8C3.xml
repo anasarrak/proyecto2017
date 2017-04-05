@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="trabajan" directorySegmentName="seg_0" id="76379358-73F2-4398-7315-41FFC43BC8C3">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:19:52 UTC</createdTime>
+<ownerDesignName>logico</ownerDesignName>
+<engineerTo>
+<item key="93D10FC3-CC50-7DE1-8665-04B68E1190D7" value="true"/>
+</engineerTo>
+<sourcePk>EB5A55D3-7E85-859C-8FC1-F21DBE82E2C1</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>tiene</nameOnSource>
+<nameOnTarget>trabaja en</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>95C66248-B617-6052-DE06-0EA328540591</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C1AA85AE-CD18-5D2C-1381-0A65125B40E4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
