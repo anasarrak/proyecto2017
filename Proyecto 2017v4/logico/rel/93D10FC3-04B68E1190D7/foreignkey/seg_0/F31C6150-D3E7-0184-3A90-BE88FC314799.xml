@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F31C6150-D3E7-0184-3A90-BE88FC314799" containerWithKeyObject="2D752BD8-5746-E6DF-54F5-52845F5261FF" localFKIndex="FB858E67-B859-23FF-E230-6235A9832134" name="Albaran_Parte_FK">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:37:01 UTC</createdTime>
+<generatorID>CF1B3F76-C558-DC2A-8D1C-5C6F7A6C33B8</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<referredTableLongName>Parte</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D3DAABD9-28CC-7634-3BA0-0CE39C735E01</referredTableID>
+<keyObject>2930121C-F156-0D6F-C95B-4964F1C1C74E</keyObject>
+<referredKeyID>2930121C-F156-0D6F-C95B-4964F1C1C74E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idParte</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
