@@ -8,7 +8,7 @@ DROP TABLE centros CASCADE CONSTRAINTS;
 
 CREATE TABLE centros
   (
-    idCentro  NUMBER (3) NOT NULL,
+    idCentro  NUMBER (3),
     nombre    VARCHAR2 (30) NOT NULL ,
     calle     VARCHAR2 (30) NOT NULL,
     numero    NUMBER (2) NOT NULL,
@@ -88,7 +88,7 @@ CREATE TABLE partes
   
 CREATE TABLE albaranes
   (
-    idAlbaran NUMBER(3) NOT NULL,
+    idAlbaran NUMBER(3),
     horaSalida VARCHAR2(10) NOT NULL,
     horaLlegada VARCHAR2(10) NOT NULL,
     matricula VARCHAR2(7) NOT NULL,
