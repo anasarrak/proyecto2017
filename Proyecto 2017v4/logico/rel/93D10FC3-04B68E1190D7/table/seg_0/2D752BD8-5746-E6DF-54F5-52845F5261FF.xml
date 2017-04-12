@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2D752BD8-5746-E6DF-54F5-52845F5261FF" name="Albaran">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:36:58 UTC</createdTime>
+<generatorID>404B60A8-D338-654E-EA17-AD364CA6562E</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idAlbaran" id="6D0A182E-35EC-05D6-D4EF-236960B66C0F">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:36:59 UTC</createdTime>
+<generatorID>6DB62EE1-4E8E-81EA-7E4A-C5CA5CF330F5</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horaSalida" id="B7C43392-6EFE-6A21-7F13-CE560A790689">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:36:59 UTC</createdTime>
+<generatorID>68D019EF-4CB3-CCC8-B84F-67F54D4565FC</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horaLlegada" id="786558E8-A2CB-D6DB-AC6D-B145D860661B">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:36:59 UTC</createdTime>
+<generatorID>8B61110F-801D-D941-EC86-8B12467BDC9B</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Parte_idParte" id="D7E08ED1-FEF6-DE43-D739-9716CBCA22D3">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:36:59 UTC</createdTime>
+<generatorID>A1354620-6EA5-D226-4F28-C7E6F3693474</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F31C6150-D3E7-0184-3A90-BE88FC314799" referredColumn="F1C2229A-E271-9C47-DD88-2A58CB315B1D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="72A45263-EF8E-3806-133F-C05CDCDC0DFD" name="Albaran_PK">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:36:59 UTC</createdTime>
+<generatorID>469671D1-266A-DA08-C1DE-55DE6DA63F89</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D0A182E-35EC-05D6-D4EF-236960B66C0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB858E67-B859-23FF-E230-6235A9832134" name="Albaran_Parte_FK">
+<createdBy>Al</createdBy>
+<createdTime>2017-03-31 21:37:01 UTC</createdTime>
+<generatorID>CF1B3F76-C558-DC2A-8D1C-5C6F7A6C33B8</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7E08ED1-FEF6-DE43-D739-9716CBCA22D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
