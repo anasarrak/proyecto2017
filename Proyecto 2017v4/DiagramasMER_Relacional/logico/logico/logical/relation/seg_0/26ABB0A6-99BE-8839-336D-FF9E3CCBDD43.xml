@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Usav2" directorySegmentName="seg_0" id="26ABB0A6-99BE-8839-336D-FF9E3CCBDD43">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-24 11:18:12 UTC</createdTime>
+<ownerDesignName>logico</ownerDesignName>
+<sourcePk>893B10EE-9BA2-5BCF-5D7C-76C6593E5096</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>81A2ABA4-256E-E46E-6003-7F1CE05AB874</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C97A1896-5E7E-1D12-3152-D438A1F27490</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
