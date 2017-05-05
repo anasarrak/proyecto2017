@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9AE1BE42-016D-3EE4-80ED-5C5187E2AED7" containerWithKeyObject="D8E36682-F6F2-6871-85CD-0BB7BAF0F1DB" localFKIndex="F6E1DFEC-AA39-8919-BC71-B6BC99C46F0F" name="Trabajador_TipoTrabjador_FK">
+<createdBy>Al</createdBy>
+<createdTime>2017-05-05 10:30:33 UTC</createdTime>
+<generatorID>76CF5B71-E839-4519-6179-45D861FF8509</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<referredTableLongName>TipoTrabjador</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>639EEC7C-B703-B97E-390A-1F90F785EFBF</referredTableID>
+<keyObject>1C48562B-E0B2-7F71-EE7C-815B58B4435C</keyObject>
+<referredKeyID>1C48562B-E0B2-7F71-EE7C-815B58B4435C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idTipo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

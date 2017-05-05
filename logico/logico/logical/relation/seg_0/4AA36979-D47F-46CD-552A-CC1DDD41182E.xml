@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="avisado" directorySegmentName="seg_0" id="4AA36979-D47F-46CD-552A-CC1DDD41182E">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-24 11:12:45 UTC</createdTime>
+<ownerDesignName>logico</ownerDesignName>
+<sourcePk>6F62DC16-9E90-5D3B-4714-665B7827E757</sourcePk>
+<targetPk>CE1309A5-150E-DE6B-ECF6-EFD78395A37C</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>58652730-0F0F-F6F9-661F-C1605836D6B3</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>2BC42550-C319-CB03-9066-50D1C48CF1A3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="131CDAEB-E22E-20B4-ED66-7E573965892B" name="Albaran">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-24 11:08:59 UTC</createdTime>
+<ownerDesignName>logico</ownerDesignName>
+<engineerTo>
+<item key="50CBF754-CED8-B653-A1A2-51C74F0B8BD9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idAlbaran" id="EEE4E6DB-22B3-96F1-CAA3-5819AE0BD07F">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-24 11:09:12 UTC</createdTime>
+<ownerDesignName>logico</ownerDesignName>
+<engineerTo>
+<item key="50CBF754-CED8-B653-A1A2-51C74F0B8BD9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horaSalida" id="6A83F786-8C27-FA59-DA9F-65F444D97833">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-24 11:09:19 UTC</createdTime>
+<ownerDesignName>logico</ownerDesignName>
+<engineerTo>
+<item key="50CBF754-CED8-B653-A1A2-51C74F0B8BD9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horaLlegada" id="AFAB39D0-3AB0-B482-DB33-266D6FB04413">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-24 11:10:07 UTC</createdTime>
+<ownerDesignName>logico</ownerDesignName>
+<engineerTo>
+<item key="50CBF754-CED8-B653-A1A2-51C74F0B8BD9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idParte" id="BE3983E2-1445-7128-A429-065089E1433D">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-24 11:17:00 UTC</createdTime>
+<generatorID>D4B93688-7AC1-2154-2CC6-5B18F9130220</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<engineerTo>
+<item key="50CBF754-CED8-B653-A1A2-51C74F0B8BD9" value="true"/>
+</engineerTo>
+<referedAttribute>67A0A2F2-9EA9-5998-9814-91B3B613631C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E1DE1BEC-82ED-6992-9A5F-849D6F933ECE" name="Albaran PK">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-24 11:09:19 UTC</createdTime>
+<ownerDesignName>logico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="50CBF754-CED8-B653-A1A2-51C74F0B8BD9" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EEE4E6DB-22B3-96F1-CAA3-5819AE0BD07F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

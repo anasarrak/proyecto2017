@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="58652730-0F0F-F6F9-661F-C1605836D6B3" name="Aviso">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-24 11:03:55 UTC</createdTime>
+<ownerDesignName>logico</ownerDesignName>
+<engineerTo>
+<item key="50CBF754-CED8-B653-A1A2-51C74F0B8BD9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codAviso" id="EA041534-D6CC-E65D-8527-337DD90AB12E">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-24 11:04:10 UTC</createdTime>
+<ownerDesignName>logico</ownerDesignName>
+<engineerTo>
+<item key="50CBF754-CED8-B653-A1A2-51C74F0B8BD9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="C94CD84C-FCC7-CA3C-BB4D-2A831DB59B32">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-24 11:04:23 UTC</createdTime>
+<ownerDesignName>logico</ownerDesignName>
+<engineerTo>
+<item key="50CBF754-CED8-B653-A1A2-51C74F0B8BD9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descripcion" id="5F566008-FA16-6692-8BAF-BEB0CE9377C5">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-24 11:04:36 UTC</createdTime>
+<ownerDesignName>logico</ownerDesignName>
+<engineerTo>
+<item key="50CBF754-CED8-B653-A1A2-51C74F0B8BD9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idTrabajador" id="335E34F7-3383-4526-2FDC-141B765B0165">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-24 11:12:54 UTC</createdTime>
+<generatorID>4AA36979-D47F-46CD-552A-CC1DDD41182E</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<engineerTo>
+<item key="50CBF754-CED8-B653-A1A2-51C74F0B8BD9" value="true"/>
+</engineerTo>
+<referedAttribute>410B3E9F-0C5A-AFC2-A2C4-DEB86E57BB39</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6F62DC16-9E90-5D3B-4714-665B7827E757" name="Aviso PK">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-24 11:04:22 UTC</createdTime>
+<ownerDesignName>logico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="50CBF754-CED8-B653-A1A2-51C74F0B8BD9" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EA041534-D6CC-E65D-8527-337DD90AB12E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Usa" directorySegmentName="seg_0" id="11D5A85F-3F96-46E4-08A4-5243452CF15B">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-24 11:15:23 UTC</createdTime>
+<ownerDesignName>logico</ownerDesignName>
+<sourcePk>76078622-4A8E-B116-1FC2-05BC2E757720</sourcePk>
+<targetPk>CE1309A5-150E-DE6B-ECF6-EFD78395A37C</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>11BEBAC9-E2BD-2856-F066-817E37BD91A7</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>2BC42550-C319-CB03-9066-50D1C48CF1A3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
