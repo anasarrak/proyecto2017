@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="89556FB8-6B68-6D09-A706-AF9D2E18AED1" name="Aviso">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-24 11:22:52 UTC</createdTime>
+<generatorID>58652730-0F0F-F6F9-661F-C1605836D6B3</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codAviso" id="BC243E31-38B9-3541-1559-858D794FB7DC">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-24 11:22:52 UTC</createdTime>
+<generatorID>EA041534-D6CC-E65D-8527-337DD90AB12E</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="930B6D84-6930-F18F-F6C2-ABC4DC950A28">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-24 11:22:52 UTC</createdTime>
+<generatorID>C94CD84C-FCC7-CA3C-BB4D-2A831DB59B32</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="13F8E9CB-3377-9874-02F4-7E88D0965A61">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-24 11:22:52 UTC</createdTime>
+<generatorID>5F566008-FA16-6692-8BAF-BEB0CE9377C5</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6C26A09C-35C4-6806-E57F-7FE978AADFE1" name="Aviso_PK">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-24 11:22:52 UTC</createdTime>
+<generatorID>6F62DC16-9E90-5D3B-4714-665B7827E757</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC243E31-38B9-3541-1559-858D794FB7DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B499A89-F5EB-736C-EC4A-92E7A8ADDCD7" name="Aviso__IDX">
+<createdBy>Al</createdBy>
+<createdTime>2017-05-05 10:30:33 UTC</createdTime>
+<ownerDesignName>logico</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>4AA36979-D47F-46CD-552A-CC1DDD41182E</relationGeneratorID>
+</ind_PK_UK>
+</indexes>
+</Table>

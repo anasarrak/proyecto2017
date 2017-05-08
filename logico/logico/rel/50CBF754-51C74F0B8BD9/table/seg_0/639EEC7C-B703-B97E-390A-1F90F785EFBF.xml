@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="639EEC7C-B703-B97E-390A-1F90F785EFBF" name="TipoTrabjador">
+<createdBy>Al</createdBy>
+<createdTime>2017-05-05 10:30:33 UTC</createdTime>
+<generatorID>C42A3834-C1CD-1ABC-6C1B-BDCB25DD5910</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idTipo" id="4BE2AB22-0584-7641-C4A8-CBE98B0C20CC">
+<createdBy>Al</createdBy>
+<createdTime>2017-05-05 10:30:33 UTC</createdTime>
+<generatorID>B93F3230-2AE1-5447-E2D3-D55B4A2F3EFB</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="71E96D24-8E80-6813-281A-8240E702C1FB">
+<createdBy>Al</createdBy>
+<createdTime>2017-05-05 10:30:33 UTC</createdTime>
+<generatorID>868AA232-BCBC-2EAF-B128-27C8E71F0FF5</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1C48562B-E0B2-7F71-EE7C-815B58B4435C" name="TipoTrabjador_PK">
+<createdBy>Al</createdBy>
+<createdTime>2017-05-05 10:30:33 UTC</createdTime>
+<generatorID>41731538-DF7F-7024-1C03-148FAC51FEB7</generatorID>
+<ownerDesignName>logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BE2AB22-0584-7641-C4A8-CBE98B0C20CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C52B34E7-9473-733E-4C2C-9C6773E0B9E3" name="TipoTrabjador__IDX">
+<createdBy>Al</createdBy>
+<createdTime>2017-05-05 10:30:33 UTC</createdTime>
+<ownerDesignName>logico</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>76CF5B71-E839-4519-6179-45D861FF8509</relationGeneratorID>
+</ind_PK_UK>
+</indexes>
+</Table>
