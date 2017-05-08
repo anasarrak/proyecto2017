@@ -1,0 +1,5 @@
+CREATE OR REPLACE PACKAGE PAQUETE_ALBARAN2 IS
+  TYPE ALBARAN_CURSOR IS REF CURSOR;
+  PROCEDURE visualizar_lista_id_albaran(un_cursor OUT ALBARAN_CURSOR);
+  PROCEDURE visualizar_datos_albaran_id(pidAlbaran IN ALBARANES.idAlbaran%type, un_cursor OUT ALBARAN_CURSOR);
+END PAQUETE_ALBARAN2;
