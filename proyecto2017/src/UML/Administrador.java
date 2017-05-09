@@ -5,6 +5,8 @@
  */
 package UML;
 
+import java.sql.Date;
+
 
 
 /**
@@ -13,6 +15,15 @@ package UML;
  */
 public class Administrador extends Trabajador
 {
+
+    public Administrador(int idTrab, String dni, String nombre, String apellidouno, String apellidodos, String calle, 
+            String portal, String piso, String mano, String telefempre, String telefperso, Double salario, Date fechaNac, 
+            Centro pc, Aviso av, Usuario us, Categoria catt) 
+    {
+        super(idTrab, dni, nombre, apellidouno, apellidodos, calle, portal, piso, mano, telefempre, telefperso, salario, 
+                fechaNac, pc, av, us, catt);
+        
+    }
    
 
     

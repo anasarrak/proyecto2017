@@ -15,6 +15,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
@@ -30,12 +32,17 @@ public class Parser
     List partes;
     Document dom;
     Element rootElement;
-    public Parser() 
+    public Parser(ArrayList <Parte> partes) 
     {
         //create a list to hold the contact objects
-        partes = new ArrayList();
+        
+        this.partes=partes;
+        
     }
-    public void runExample() throws IOException 
+
+    
+    
+    public void runParser() throws IOException 
     {        
           
         createXMLDoc();
@@ -185,40 +192,29 @@ public class Parser
             XMLSerializer serializer;
             format = new OutputFormat(dom);
             format.setIndenting(true);
+            Transformer transformer;
+            TransformerFactory tFactory = TransformerFactory.newInstance();
 
             //to generate output to console use this serializer
             //XMLSerializer serializer = new XMLSerializer(System.out, format);
 
             //to generate a file output use fileoutputstream instead of system.out
             
+
             serializer = new XMLSerializer(new FileOutputStream(new File("partes.xml")), format);
+            transformer = tFactory.newTransformer (new javax.xml.transform.stream.StreamSource("partes.xsl"));
+            transformer.transform (new javax.xml.transform.stream.StreamSource ("partes.xml"),
+                    new javax.xml.transform.stream.StreamResult( new FileOutputStream("partes.html")));
 
             serializer.serialize(dom);
 
         }
-        catch (IOException ie) 
+        catch (IOException | TransformerException ie) 
         {
 
         }
     }
     
-    public static void xmlHtml()
-    {
-        try 
-        {
-
-            TransformerFactory tFactory = TransformerFactory.newInstance();
-
-            Transformer transformer = tFactory.newTransformer (new javax.xml.transform.stream.StreamSource("partes.xsl"));
-
-            transformer.transform (new javax.xml.transform.stream.StreamSource ("partes.xml"),
-                    new javax.xml.transform.stream.StreamResult( new FileOutputStream("partes.html")));
-        }
-        catch (FileNotFoundException | TransformerException e) 
-        {
-
-        }
-    }
-
+    
 
 }

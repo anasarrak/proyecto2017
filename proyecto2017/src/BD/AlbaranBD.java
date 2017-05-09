@@ -14,6 +14,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.ArrayList;
 import oracle.jdbc.OracleTypes;
 
@@ -53,18 +54,20 @@ public class AlbaranBD extends GenericoBD
         return idsAlbaranes;
     }
     
+    
+    
      public static Albaran visualizar_datos_albaran(Albaran al) 
     {
         abrirConexion();
         Connection conn = GenericoBD.getCon();
-        int idAlbaran=al.getIdAlbaran();
+        double hLLegada=al.getHoraLlegada();
     
         
         try
         {
-            CallableStatement cs = conn.prepareCall("{call PAQUETE_ALBARAN2.visualizar_datos_albaran_id(?,?)}");
+            CallableStatement cs = conn.prepareCall("{call PAQUETE_ALBARAN2.visualizar_datos_albaran_hL(?,?)}");
 
-            cs.setInt(1, idAlbaran);
+            cs.setDouble(1, hLLegada);
             cs.registerOutParameter(2, OracleTypes.CURSOR);
             cs.execute();
             ResultSet rs = (ResultSet)cs.getObject(2);

@@ -5,8 +5,8 @@
  */
 package Ventanas;
 
-import Controlador.Programa;
-import UML.Seguridad;
+import Controlador.*;
+import UML.*;
 import java.io.UnsupportedEncodingException;
 import java.security.NoSuchAlgorithmException;
 import java.util.logging.Level;
@@ -151,6 +151,7 @@ public class VentanaLogin extends javax.swing.JDialog {
        
         //PRUEBAS 
         System.out.println( jTfUsuario.getText() );
+        Usuario us;
         
         try {
             System.out.println( Seguridad.codificar( new String(jPassfContraseña.getPassword())));
@@ -159,12 +160,10 @@ public class VentanaLogin extends javax.swing.JDialog {
         } catch (NoSuchAlgorithmException ex) {
             Logger.getLogger(VentanaLogin.class.getName()).log(Level.SEVERE, null, ex);
         }
-        //PRUEBAS
         
-        //usuario: admin
-        //pass: 21232f297a57a5a743894a0e4a801fc3
         
-        if(Programa.buscarUsuario(jTfUsuario.getText(),new String(jPassfContraseña.getPassword())) == null )
+        
+        if(Programa.buscarTrabajadorLog(jTfUsuario.getText(),new String(jPassfContraseña.getPassword())) == null )
         {
             JOptionPane.showMessageDialog(rootPane,"Usuario erroneo / Contraseña incorrecto");
             contador++;
@@ -176,6 +175,15 @@ public class VentanaLogin extends javax.swing.JDialog {
         else
         {
             JOptionPane.showMessageDialog(rootPane,"Usuario/Password OK");
+            
+            if(Programa.buscarTrabajadorLog(jTfUsuario.getText(),new String(jPassfContraseña.getPassword())) instanceof Administrador)
+            {
+                Programa.abrirVentanaAdmin();
+            }
+            else
+            {
+                Programa.abrirVentanaLogistic();
+            }
         }
         
         

@@ -46,6 +46,7 @@ public class UsuarioBD extends GenericoBD
             resultado = s.executeQuery( plantilla );
             
             
+            if(resultado.next())
             
            
                 us=new Usuario(resultado.getInt(1), usuario, password, new Trabajador(resultado.getInt(2), null, null, null, null,
@@ -55,11 +56,11 @@ public class UsuarioBD extends GenericoBD
         }
         catch( SQLException e)
         {
-            us=null;
+            e.printStackTrace();
         } 
         catch (UnsupportedEncodingException | NoSuchAlgorithmException ex)
         {
-            Logger.getLogger(UsuarioBD.class.getName()).log(Level.SEVERE, null, ex);
+            
         }
         finally
         {

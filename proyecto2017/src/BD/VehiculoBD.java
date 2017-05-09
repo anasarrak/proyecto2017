@@ -5,8 +5,7 @@
  */
 package BD;
 
-import UML.Trabajador;
-import UML.Vehiculo;
+import UML.*;
 import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -83,16 +82,54 @@ public class VehiculoBD extends GenericoBD
         return codVehiculos;
     }
     
-    public static Vehiculo visualizar_datos_vehiculo_cod() 
+    public static Vehiculo visualizar_datos_vehiculo_cod(Vehiculo v) 
     {
         abrirConexion();
         Connection conn = GenericoBD.getCon();
-        Vehiculo v = null;
+        int CodVehiculo=v.getCodigoV();
+        ArrayList <Parte>partes=ParteBD.obtenerListaIdsPartes();
         try
         {
-            CallableStatement cs = conn.prepareCall("{call PAQUETE_VEHICULO2.visualizar_datos_vehiculo_cod(?)}");
+            CallableStatement cs = conn.prepareCall("{call PAQUETE_VEHICULO2.visualizar_datos_vehiculo_cod(?,?)}");
 
-            cs.registerOutParameter(1, OracleTypes.CURSOR);
+            cs.setInt(1, CodVehiculo);
+            cs.registerOutParameter(2, OracleTypes.CURSOR);
+            cs.execute();
+            ResultSet rs = (ResultSet)cs.getObject(1);
+            if(rs.next())
+            {
+                v = new Vehiculo(rs.getInt(1),rs.getInt(2),rs.getString(3),rs.getString(4));
+               
+            }
+            for(Parte p:partes)
+            {
+                v.setPartes(p);
+            }
+            
+        }
+        catch(SQLException e)
+        {
+            
+            
+        }
+        finally
+        {
+           cerrarConexion();
+        }
+        return v;
+    }
+
+    public static Vehiculo visualizar_datos_vehiculo_id(Vehiculo v) 
+    {
+        abrirConexion();
+        Connection conn = GenericoBD.getCon();
+        int idVehiculo=v.getIdVehiculo();
+        try
+        {
+            CallableStatement cs = conn.prepareCall("{call PAQUETE_VEHICULO2.visualizar_datos_vehiculo_id(?,?)}");
+
+            cs.setInt(1, idVehiculo);
+            cs.registerOutParameter(2, OracleTypes.CURSOR);
             cs.execute();
             ResultSet rs = (ResultSet)cs.getObject(1);
             if(rs.next())

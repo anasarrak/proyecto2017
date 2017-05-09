@@ -5,11 +5,13 @@
  */
 package BD;
 
+import UML.Albaran;
 import UML.Parte;
 import UML.Trabajador;
 import UML.Vehiculo;
 import java.sql.CallableStatement;
 import java.sql.Connection;
+import java.sql.Date;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -22,7 +24,7 @@ import oracle.jdbc.OracleTypes;
  */
 public class ParteBD extends GenericoBD
 {
-    public static ArrayList visualizarListaIdsPartes() 
+    public static ArrayList obtenerListaIdsPartes() 
     {
         abrirConexion();
         Connection conn = GenericoBD.getCon();
@@ -56,14 +58,15 @@ public class ParteBD extends GenericoBD
     {
         abrirConexion();
         Connection conn = GenericoBD.getCon();
-        int idParte=p.getIdParte();
+        Date fecha=p.getFecha();
+        ArrayList<Albaran>albaranes= AlbaranBD.visualizarListaIdsAlbaranes();
     
         
         try
         {
-            CallableStatement cs = conn.prepareCall("{call PAQUETE_PARTE2.visualizar_datos_parte_id(?,?)}");
+            CallableStatement cs = conn.prepareCall("{call PAQUETE_PARTE2.visualizar_datos_parte_fecha(?,?)}");
 
-            cs.setInt(1, idParte);
+            cs.setDate(1, fecha);
             cs.registerOutParameter(2, OracleTypes.CURSOR);
             cs.execute();
             ResultSet rs = (ResultSet)cs.getObject(2);
@@ -74,6 +77,11 @@ public class ParteBD extends GenericoBD
                         new Trabajador(rs.getInt(12),null,null,null,null,null,null,null,null,null,null,0.0, null, 
                                 null, null, null, null),
                         new Vehiculo(rs.getInt(13), 0, null,null));
+                for(Albaran al:albaranes)
+                {
+                    p.setAlbaranes(al);
+                }
+               
                 
             }
         }
@@ -87,6 +95,8 @@ public class ParteBD extends GenericoBD
         }
         return p;
     }
+     
+    
      
     public static void actualizarPartes(Parte p) 
     {

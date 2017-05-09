@@ -225,6 +225,8 @@ public class Parte
        sb.append("Vehiculo: ").append(v.getIdVehiculo());
        sb.append("\n");
        sb.append("Km fin: ").append(getKmInicio());
+       //bucle parea albaranes
+       
        sb.append("\n\n------------------------------------------------");
        return sb.toString();
 
